@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`7a92103`](https://github.com/stdlib-js/stdlib/commit/7a92103ded645aa971bbac7544cafe24652fd5bd) - **docs:** update copy _(by Athan Reines)_
 -   [`9325d5f`](https://github.com/stdlib-js/stdlib/commit/9325d5fcb04b58b7405cc9fd387935d9707cfb0e) - **feat:** add `array/fixed-endian-float64` _(by Athan Reines)_
 
 </details>
