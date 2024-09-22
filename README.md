@@ -54,7 +54,7 @@ In contrast to the [`Float64Array`][@stdlib/array/float64] typed array construct
 ## Usage
 
 ```javascript
-import Float64ArrayFE from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-fixed-endian-float64@esm/index.mjs';
+import Float64ArrayFE from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-fixed-endian-float64@v0.0.0-esm/index.mjs';
 ```
 
 #### Float64ArrayFE( endianness )
@@ -404,7 +404,7 @@ var str = arr.toString();
 
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
 import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@esm/index.mjs';
-import Float64ArrayFE from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-fixed-endian-float64@esm/index.mjs';
+import Float64ArrayFE from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-fixed-endian-float64@v0.0.0-esm/index.mjs';
 
 // Create a typed array by specifying a length:
 var out = new Float64ArrayFE( 'little-endian', 3 );
