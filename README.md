@@ -56,6 +56,11 @@ In contrast to the [`Float64Array`][@stdlib/array/float64] typed array construct
 To use in Observable,
 
 ```javascript
+Float64ArrayFE = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-fixed-endian-float64@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-fixed-endian-float64/tags). For example,
+
+```javascript
 Float64ArrayFE = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-fixed-endian-float64@v0.0.0-umd/browser.js' )
 ```
 
@@ -68,7 +73,7 @@ var Float64ArrayFE = require( 'path/to/vendor/umd/array-fixed-endian-float64/ind
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-fixed-endian-float64@v0.0.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-fixed-endian-float64@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -426,7 +431,7 @@ var str = arr.toString();
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-fixed-endian-float64@v0.0.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-fixed-endian-float64@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
