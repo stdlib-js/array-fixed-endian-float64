@@ -1,7 +1,7 @@
 {
   "name": "@stdlib/array-fixed-endian-float64",
   "version": "0.0.0",
-  "description": "Float64ArrayFE.",
+  "description": "Float64Array having a specified byte order.",
   "license": "Apache-2.0",
   "author": {
     "name": "The Stdlib Authors",
@@ -47,6 +47,7 @@
     "@stdlib/assert-is-function": "^0.2.2",
     "@stdlib/assert-is-nonnegative-integer": "^0.2.2",
     "@stdlib/assert-is-object": "^0.2.2",
+    "@stdlib/assert-is-prototype-of": "^0.2.2",
     "@stdlib/assert-is-string": "^0.2.2",
     "@stdlib/string-base-lowercase": "^0.4.0",
     "@stdlib/string-format": "^0.2.2",
