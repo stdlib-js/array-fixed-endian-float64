@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-25)
+## Unreleased (2024-12-09)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`1c56b73`](https://github.com/stdlib-js/stdlib/commit/1c56b737ec018cc818cebf19e5c7947fa684e126) - **docs:** update related packages sections [(#3380)](https://github.com/stdlib-js/stdlib/pull/3380) _(by stdlib-bot)_
 -   [`7d9b31b`](https://github.com/stdlib-js/stdlib/commit/7d9b31bcaf049f263228d7d5c020bb24c408e6d7) - **refactor:** use `array/fixed-endian-factory` _(by Athan Reines)_
 -   [`177f16c`](https://github.com/stdlib-js/stdlib/commit/177f16cd80b9072714e7b4e976487e5e6dd19761) - **chore:** update package meta data [(#2933)](https://github.com/stdlib-js/stdlib/pull/2933) _(by stdlib-bot, Athan Reines)_
 -   [`80d76d2`](https://github.com/stdlib-js/stdlib/commit/80d76d21c9524da51ff00bcbc838ee0c01d08ab5) - **refactor:** support child classes _(by Athan Reines)_
