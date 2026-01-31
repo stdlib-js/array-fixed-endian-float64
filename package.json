@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-fixed-endian-float64",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Float64Array having a specified byte order.",
   "license": "Apache-2.0",
   "author": {
