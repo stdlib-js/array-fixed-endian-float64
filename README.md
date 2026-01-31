@@ -47,38 +47,32 @@ In contrast to the [`Float64Array`][@stdlib/array/float64] typed array construct
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/array-fixed-endian-float64
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-Float64ArrayFE = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-fixed-endian-float64@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var Float64ArrayFE = require( 'path/to/vendor/umd/array-fixed-endian-float64/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-fixed-endian-float64@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.Float64ArrayFE;
-})();
-</script>
+var Float64ArrayFE = require( '@stdlib/array-fixed-endian-float64' );
 ```
 
 #### Float64ArrayFE( endianness )
@@ -420,15 +414,10 @@ var str = arr.toString();
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-fixed-endian-float64@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var Float64Array = require( '@stdlib/array-float64' );
+var logEach = require( '@stdlib/console-log-each' );
+var Float64ArrayFE = require( '@stdlib/array-fixed-endian-float64' );
 
 // Create a typed array by specifying a length:
 var out = new Float64ArrayFE( 'little-endian', 3 );
@@ -448,11 +437,6 @@ logEach( '%s', out );
 arr = new Float64Array( [ 1.0, -1.0, -3.14, 3.14, 0.5, 0.5 ] ); // host byte order
 out = new Float64ArrayFE( 'big-endian', arr.buffer, 8, 2 );
 logEach( '%s', out );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -508,7 +492,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -521,8 +505,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/array-fixed-endian-float64.svg
 [npm-url]: https://npmjs.org/package/@stdlib/array-fixed-endian-float64
 
-[test-image]: https://github.com/stdlib-js/array-fixed-endian-float64/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/array-fixed-endian-float64/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/array-fixed-endian-float64/actions/workflows/test.yml/badge.svg?branch=v0.1.0
+[test-url]: https://github.com/stdlib-js/array-fixed-endian-float64/actions/workflows/test.yml?query=branch:v0.1.0
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/array-fixed-endian-float64/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/array-fixed-endian-float64?branch=main
@@ -534,8 +518,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 -->
 
-[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
+[chat-image]: https://img.shields.io/badge/zulip-join_chat-brightgreen.svg
+[chat-url]: https://stdlib.zulipchat.com
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
@@ -554,17 +538,17 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-fixed-endian-float64/main/LICENSE
 
-[@stdlib/array/typed]: https://github.com/stdlib-js/array-typed/tree/umd
+[@stdlib/array/typed]: https://github.com/stdlib-js/array-typed
 
-[@stdlib/array/buffer]: https://github.com/stdlib-js/array-buffer/tree/umd
+[@stdlib/array/buffer]: https://github.com/stdlib-js/array-buffer
 
-[@stdlib/wasm/memory]: https://github.com/stdlib-js/wasm-memory/tree/umd
+[@stdlib/wasm/memory]: https://github.com/stdlib-js/wasm-memory
 
-[@stdlib/array/float64]: https://github.com/stdlib-js/array-float64/tree/umd
+[@stdlib/array/float64]: https://github.com/stdlib-js/array-float64
 
 <!-- <related-links> -->
 
-[@stdlib/array/fixed-endian-float32]: https://github.com/stdlib-js/array-fixed-endian-float32/tree/umd
+[@stdlib/array/fixed-endian-float32]: https://github.com/stdlib-js/array-fixed-endian-float32
 
 <!-- </related-links> -->
 
