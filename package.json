@@ -36,7 +36,8 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-fixed-endian-factory": "^0.1.0"
+    "@stdlib/array-fixed-endian-factory": "^0.1.0",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/array-buffer": "^0.2.3",
