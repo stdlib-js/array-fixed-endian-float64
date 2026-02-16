@@ -36,18 +36,18 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-fixed-endian-factory": "^0.1.0"
+    "@stdlib/array-fixed-endian-factory": "^0.1.1"
   },
   "devDependencies": {
     "@stdlib/array-buffer": "^0.2.3",
     "@stdlib/array-float64": "^0.2.3",
-    "@stdlib/array-zero-to": "^0.2.2",
+    "@stdlib/array-zero-to": "^0.2.3",
     "@stdlib/assert-is-arraybuffer": "^0.2.3",
     "@stdlib/assert-is-nonnegative-integer": "^0.2.3",
     "@stdlib/assert-is-number": "^0.2.3",
-    "@stdlib/console-log-each": "^0.2.3",
+    "@stdlib/console-log-each": "^0.2.4",
     "@stdlib/math-base-special-pow": "^0.3.1",
-    "@stdlib/random-array-randu": "^0.2.1",
+    "@stdlib/random-array-randu": "^0.2.2",
     "@stdlib/symbol-iterator": "^0.2.3",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
