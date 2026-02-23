@@ -2,6 +2,41 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-02-23)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`7bf88ba`](https://github.com/stdlib-js/stdlib/commit/7bf88bae362e09e9fd53718b05af4bd11e6f79af) - **bench:** refactor to use string interpolation in `array/fixed-endian-float64` [(#10342)](https://github.com/stdlib-js/stdlib/pull/10342) _(by Bhargav Dabhade, Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Bhargav Dabhade
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.1.1">
 
 ## 0.1.1 (2026-02-08)
